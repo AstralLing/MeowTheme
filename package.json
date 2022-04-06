@@ -1,0 +1,26 @@
+{
+  "name": "meow-theme",
+  "displayName": "Meow Theme",
+  "description": "A cute theme for vscode.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.66.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Meow Theme White",
+        "uiTheme": "vs",
+        "path": "./themes/white-cat-color-theme.json"
+      },
+      {
+        "label": "Meow Theme Pink",
+        "uiTheme": "vs",
+        "path": "./themes/pink-cat-color-theme.json"
+      }
+    ]
+  }
+}
