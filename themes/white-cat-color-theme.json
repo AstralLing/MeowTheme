@@ -106,14 +106,14 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#ADB1C2"
+        "foreground": "#c0c0c0"
       }
     },
     {
       "name": "Comments: Preprocessor",
       "scope": "comment.block.preprocessor",
       "settings": {
-        "foreground": "#9194A2"
+        "foreground": "#999999"
       }
     },
     {
@@ -177,6 +177,13 @@
       "settings": {
         "foreground": "#ee89d6"
       }
+    },
+    {
+      "name": "Units",
+      "scope": "keyword.other.unit",
+      "settings": {
+        "foreground": "#ebb304",
+      },
     },
     {
       "name": "Types",
