@@ -14,7 +14,7 @@
   "name": "Meow Theme",
   "semanticHighlighting": true,
   "colors": {
-    "focusBorder": "#719eff",
+    "focusBorder": "#6596ff",
     "foreground": "#233333",
     "editor.foreground": "#233333",
     "editor.background": "#ffffff",
@@ -22,12 +22,20 @@
     "editor.selectionBackground": "#288cff25",
     "editor.inactiveSelectionBackground": "#288cff10",
     "editor.selectionHighlightBackground": "#33cc5530",
-    "editor.selectionHighlightBorder": "#ffffff00", // Remove border
+    "editor.selectionHighlightBorder": "#33cc5500", // Remove border
+    "editorBracketMatch.background": "#33cc5530",
+    "editorBracketMatch.border": "#33cc5500",
     "editorLineNumber.foreground": "#c0c0c0",
     "editorLineNumber.activeForeground": "#233333",
     "editorGroupHeader.tabsBackground": "#fafbfc",
     "editorGroupHeader.tabsBorder": "#e7e7e7",
     "editorGroup.border": "#e7e7e7",
+    "editorCursor.foreground": "#999999",
+    "editor.findMatchBackground": "#ffea95",
+    "editor.findMatchHighlightBackground": "#ffea9566",
+    "editorWidget.background": "#ffffff",
+    "diffEditor.insertedTextBackground": "#42e66830",
+    "diffEditor.removedTextBackground": "#dd213430",
     "tab.activeForeground": "#233333",
     "tab.inactiveForeground": "#999999",
     "tab.inactiveBackground": "#fafbfc",
@@ -42,7 +50,7 @@
     "titleBar.border": "#e7e7e7",
     "tab.activeBorder": "#ffffff",
     "tab.unfocusedActiveBorder": "#ffffff",
-    "tab.activeBorderTop": "#719eff",
+    "tab.activeBorderTop": "#6596ff",
     "sideBar.foreground": "#233333",
     "sideBar.background": "#fafbfc",
     "sideBar.border": "#e7e7e7",
@@ -55,17 +63,19 @@
     "activityBar.background": "#ffffff",
     "activityBar.inactiveForeground": "#999999",
     "activityBar.border": "#e7e7e7",
-    "activityBar.activeBorder": "#719eff",
+    "activityBar.activeBorder": "#6596ff",
     "activityBarBadge.foreground": "#ffffff",
-    "activityBarBadge.background": "#719eff",
+    "activityBarBadge.background": "#6596ff",
     "statusBar.foreground": "#233333",
     "statusBar.background": "#ffffff",
     "statusBar.border": "#e7e7e7",
     "statusBar.noFolderBackground": "#ffffff",
     "statusBar.debuggingBackground": "#f5a9b8",
     "statusBar.debuggingForeground": "#ffffff",
+    "statusBarItem.prominentBackground": "#e7e7e7",
     "button.foreground": "#ffffff",
-    "button.background": "#5bcefa",
+    "button.background": "#f5a9b8",
+    "button.hoverBackground": "#f58ea2",
     "checkbox.background": "#ffffff",
     "checkbox.border": "#e7e7e7",
     "dropdown.background": "#fdfeff",
@@ -81,7 +91,11 @@
     "input.border": "#e7e7e7",
     "input.foreground": "#233333",
     "quickInput.background": "#fdfeff",
-    "quickInput.foreground": "#233333"
+    "quickInput.foreground": "#233333",
+    "textLink.foreground": "#6596ff",
+    "textBlockQuote.background": "#fdfeff",
+    "editorIndentGuide.background": "#e7e7e7",
+    "tree.indentGuidesStroke": "#e7e7e7",
   },
   "tokenColors": [
     // Adapted from Snazzy Light, to be recoded.
@@ -206,7 +220,7 @@
         "support.function"
       ],
       "settings": {
-        "foreground": "#719eff"
+        "foreground": "#6596ff"
       }
     },
     {
