@@ -30,6 +30,8 @@
     "editorWidget.background": "#ffffff",
     "diffEditor.insertedTextBackground": "#42e66830",
     "diffEditor.removedTextBackground": "#dd213430",
+    "debugToolBar.background": "#ffffff",
+    "debugToolBar.border": "#e7e7e7",
     "tab.activeForeground": "#233333",
     "tab.inactiveForeground": "#999999",
     "tab.inactiveBackground": "#fffbfd",
