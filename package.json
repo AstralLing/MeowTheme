@@ -2,7 +2,7 @@
   "name": "meow-theme",
   "displayName": "Meow Theme",
   "description": "A cute theme for vscode.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.66.0"
   },

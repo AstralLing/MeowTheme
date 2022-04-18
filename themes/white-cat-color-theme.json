@@ -20,7 +20,7 @@
     "editor.background": "#ffffff",
     "editor.lineHighlightBackground": "#5bcefa15",
     "editor.selectionBackground": "#288cff25",
-    "editor.inactiveSelectionBackground": "#288cff10",
+    "editor.inactiveSelectionBackground": "#288cff15",
     "editor.selectionHighlightBackground": "#33cc5525",
     "editor.selectionHighlightBorder": "#33cc5500", // Remove border
     "editorBracketMatch.background": "#33cc5525",
